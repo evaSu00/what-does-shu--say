@@ -31,10 +31,9 @@
 ---
 
 ## firebase
-- 安裝
-    `npm install -g firebase-tools`
-    如果出現 Can't resolve 'firebase/app'嘗試執行 `npm install firebase`
-    新增FireBaseConfig.js貼上 firebase那串程式碼
+- 安裝`npm install -g firebase-tools`
+- 如果出現 Can't resolve 'firebase/app' 嘗試執行 `npm install firebase`
+- 新增FireBaseConfig.js貼上 firebase那串程式碼
 
 ---
 ## 集點卡
@@ -54,7 +53,7 @@
 
 ---
 ## 特效
-- 執行 npm install animate.css --save
+- 執行 `npm install animate.css --save`
 
 
 
