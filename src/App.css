@@ -1,0 +1,445 @@
+@font-face {
+  font-family: "huakang";
+  /* src: url("../public/font/shu_round.TTF"); */
+  /* need to be ttf can't be ttc  */
+  src: url("../public/font/huakangPOP1.TTF");
+}
+
+html {
+  cursor: url("../public/image/cursor.png"), auto;
+  /* 尺寸需要32*32 */
+  overflow: hidden;
+}
+
+head {
+  margin: 0%;
+}
+
+body {
+  text-align: center;
+  font-family: "huakang";
+  font-size: 30px;
+  color: #ad4dc4;
+  background: url("../public/image/bg.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.countnumber {
+  font-size: 40px;
+}
+
+.secret {
+  font-size: 20px;
+}
+/* 設定背景 */
+.bg {
+  background-image: url(../public/image/bg.png);
+  background-size: "cover";
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0.2%;
+  width: 98%;
+  text-align: right;
+  padding: 0px 0px 0px 20px;
+}
+
+/* 有聯結的 */
+a {
+  padding: 8px;
+  cursor: url("../public/image/cursor2.png"), auto;
+}
+
+/* 按鈕 */
+button {
+  background-color: transparent;
+  border: none;
+  cursor: url("../public/image/cursor2.png"), auto;
+  outline: none;
+}
+
+img {
+  /* 禁用圖像式搜索 */
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard syntax */
+}
+
+@media screen and (min-width: 1200px) {
+  /* 在屏幕宽度大等于1000px时应用的样式 */
+  .main_components {
+    position: relative;
+    margin-left: 16%;
+    margin-top: -4.5%;
+  }
+
+  #target_1 {
+    margin-left: -15%;
+    margin-top: -6%;
+    width: 16%;
+  }
+  #spshu_2{
+    margin-left: -15%;
+    margin-top: -11%;
+    width: 30%;
+    /* z-index:9999; */
+  }
+
+  #target_2{
+    margin-left: -3%;
+    margin-top: -3%;
+    width: 17%;
+  }
+  #spshu_6 {
+    margin-left: -5%;
+    margin-top: -3%;
+    width: 30%;
+    /* z-index:9999; */
+  }
+
+  #target_3 {
+    margin-left: -4%;
+    margin-top: -7%;
+    width: 14%;
+  }
+  #spshu_1{
+    margin-left: -3%;
+    margin-top: -8.7%;
+    width: 30%;
+    /* z-index:9999; */
+    /* position: relative; */
+  }
+
+  #target_4{
+    margin-left: -20%;
+    margin-top: -4%;
+    width: 27%;
+  }
+  #spshu_4 {
+    margin-left: -20%;
+    margin-top: -6%;
+    width: 30%;
+    /* z-index:9999; */
+  }
+
+  #target_5 {
+    margin-left: 7%;
+    margin-top: -4%;
+    width: 17%;
+  }
+  #spshu_3 {
+    margin-left: -3%;
+    margin-top: -6%;
+    width: 30%;
+    /* z-index:9999; */
+  }
+
+  #spshu_5 {
+    margin-left: -13%;
+    margin-top: -10%;
+    width: 16%;
+    /* z-index:9999; */
+  }
+
+  /* #spshu_1 {
+    margin-top: -5.7%;
+  } */
+
+  /* #spshu_6 {
+    margin-top: -12%;
+  } */
+
+  #norshu_1 {
+    transform: rotate(-15deg);
+    margin-left: -10%;
+    width: 7%;
+  }
+
+  #norshu_2 {
+    margin-left: -25%;
+    margin-top: auto;
+    width: 9%;
+  }
+
+  #norshu_3 {
+    margin-left: 8%;
+    margin-top: -8.7%;
+    width: 9%;
+  }
+
+  #norshu_4 {
+    margin-left: -7%;
+    margin-top: -8%;
+    width: 9%;
+  }
+  #collect {
+    width: 8%;
+  }
+}
+
+
+/* target即房屋，各自指定絕對位置 */
+#target_1 {
+  position: absolute;
+  top: 165px;
+  left: 220px;
+}
+
+#target_2 {
+  position: absolute;
+  top: 380px;
+  left: 620px;
+}
+
+#target_3 {
+  position: absolute;
+  top: 230px;
+  left: 550px;
+}
+
+#target_4 {
+  position: absolute;
+  top: 280px;
+  left: 50px;
+}
+
+#target_5 {
+  position: absolute;
+  top: 250px;
+  left: 815px;
+}
+
+#clickbtn {
+  border: 0;
+  background-color: #5b87ce;
+  color: #fff;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+}
+
+/* shu的圖像不會變成扁掉的大便 */
+img[alt*="shu"] {
+  cursor: url("../public/image/cursor.png"), auto;
+}
+
+
+/* 特殊版的shu */
+#spshu_1 {
+  position: absolute;
+  top: 180px;
+  left: 600px;
+  width: 23%;
+  /* z-index:9999; */
+}
+
+#spshu_2 {
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  width: 28%;
+  /* z-index:9999; */
+}
+
+#spshu_3 {
+  position: absolute;
+  top: 300px;
+  left: 780px;
+  width: 25%;
+  /* z-index:9999; */
+}
+
+#spshu_4 {
+  position: absolute;
+  top: 355px;
+  left: 115px;
+  width: 27%;
+  /* z-index:9999; */
+}
+
+#spshu_5 {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  width: 17%;
+  /* z-index:9999; */
+}
+
+#spshu_6 {
+  position: absolute;
+  top: 340px;
+  left: 680px;
+  width: 25%;
+  /* z-index:9999; */
+}
+
+/* 一般shu 位置未定 */
+#norshu_1 {
+  position: absolute;
+  top: 180px;
+  left: 170px;
+}
+
+#norshu_2 {
+  position: absolute;
+  top: 370px;
+  left: 230px;
+}
+
+#norshu_3 {
+  position: absolute;
+  top: 130px;
+  left: 850px;
+}
+
+#norshu_4 {
+  position: absolute;
+  top: 450px;
+  left: 600px;
+}
+
+/* popup page */
+#collect {
+  position: absolute;
+  top: 15px;
+  right: 40px;
+}
+
+.popuppage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.popup-content {
+  position: relative;
+  padding: 10px;
+  border-radius: 20px;
+  /* width: 100%; */
+  /* max-width: 640px; */
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.popup-content p {
+  font-size: medium;
+}
+
+#scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+#scrollcontent {
+  position: relative;
+  padding: 10px;
+  border-radius: 20px;
+  /* width: 100%; */
+  /* max-width: 640px; */
+  /* background-color: #fff; */
+  background-image: url("../public/image/BG3.png");
+  overflow-y: auto;
+}
+
+.lockicon {
+  position: relative;
+  display: inline-block;
+  /*並排*/
+  padding: 10px;
+  margin: 10px;
+}
+
+.lockicon:hover .icon-desc {
+  display: block;
+}
+
+.icon-desc {
+  display: none;
+  /* 獨立一層設定懸浮 */
+  position: absolute;
+  /* position: fixed; */
+  /* top: -30px;
+  left: 0; */
+  /* color: #fff; */
+  top: 40px;
+  left: 50px;
+  width: 130px;
+  height: 80px;
+  font-size: 0.5em;
+  /* background: #4b95a3; */
+  background: #60beb9f6;
+  padding: 10px 0px 0px 0px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+
+@media screen and (max-width: 1200px) {
+  #alertpage {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    padding: 1.2%;
+    width: 50%;
+    height: 75%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.824);
+    font-size: 24.5px;
+  }
+  .txt-p1{
+    margin: 0 0 10px 0;
+  }
+  .txt-p{
+    margin: 12px 0;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  #alertpage {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    padding: 1.2%;
+    width: 50%;
+    height: 75%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.824);
+    font-size: 30px;
+  }
+  .txt-p1{
+    margin: 0 0 10px 0;
+  }
+  .txt-p{
+    margin: 12px 0;
+  }
+}
+
+
