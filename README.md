@@ -44,7 +44,7 @@
 - 集點圖示目前設為10個，變數可改
 
 ---
-撰寫邏輯
+## 撰寫邏輯
 
 - 主要內容都在 src/app.js，渲染在 App.css
 - firebase 相關設定資料在 firebaseconfig.js
@@ -52,7 +52,8 @@
 - 彈出視窗(popuppage)定義了兩種寫法，目前採用bootatrap(參考scroll.js)，另一種react寫法在(popup.js)
 - icannotcode T_T
 
-##特效
+---
+## 特效
 - 執行 npm install animate.css --save
 
 
